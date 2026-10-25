@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todolist</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>todolist <span>♡</span></h1>
+        <p class="subtitle">little steps, big dreams ✨</p>
+
+        <form id="taskForm">
+            <input
+                type="text"
+                id="taskInput"
+                placeholder="What do you need to do?"
+                maxlength="120"
+                required
+            >
+            <button type="submit">Add +</button>
+        </form>
+
+        <h2>My tasks <span id="taskCount">0</span></h2>
+
+        <ul id="taskList"></ul>
+
+        <p id="emptyMessage">Nothing here yet. Add your first task! 🌷</p>
+    </div>
+</body>
+</html>
